@@ -1,14 +1,10 @@
 # Ben's README Generator
-"A command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package."  - Module 7 Challenge
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+This project generates a README.md file, after asking the user about their own project. I want to be able to help coders come up with a README that has some coherent structure, which could appeal to their spectators.
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+I myself learned about the general purpose and format of a README.md file. This project also helped develop my understanding of importing modules from npm packages, libraries, and other files.
 
 ## Table of Contents
 
@@ -19,32 +15,38 @@ Provide a short description explaining the what, why, and how of your project. U
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+Follow these steps to set up the program:
+
+1. Navigate to the `src` directory
+
+2. Open `index.js` in an Integrated Terminal
+
+3. In the Integrated Terminal, type `node index.js`
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+After following the instructions in the `Installation` section above:
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+1. Answer the questions presented in the Integrated Terminal
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+2. After answering all questions, in the `src` directory, a `sample.md` file will appear
+
+3. Navigate to the `sample.md` file to see the outputted README
+
+4. You can right-click and select `Open Preview` to see a preview of the generated README
+
+Below is a video demonstration of the running program:
+
+https://app.screencastify.com/v3/watch/1ekUpmPT57K5Qiq0ep4I
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
+The following contributed greatly to the development of this project:
 
 - https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
+- Michael Pacheco
+- Sachin
 
 ## License
 
 Licensed under the [MIT](LICENSE) license.
-
----
-
-END
